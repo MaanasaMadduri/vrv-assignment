@@ -6,7 +6,7 @@ threshold = 10
 with open("sample.log", "r") as file:
     lines = file.readlines()
 
-    with open("output_file.csv", "w", newline="") as output_file:
+    with open("log_analysis_results.csv", "w", newline="") as output_file:
 
         writer = csv.writer(output_file)
 
